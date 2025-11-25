@@ -7,9 +7,7 @@ To write a C++ program to convert an infix expression into a postfix expression 
 ## Algorithm:
 
 1.Start the program.
-
 2.Define a function precedence(op) to return precedence of operators (+,- = 1, *,/ = 2, ^ = 3).
-
 3.Traverse the infix expression character by character:
 4.If the character is an operand → append to postfix string.
 5.If the character is ( → push onto stack.
