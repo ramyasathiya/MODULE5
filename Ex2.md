@@ -5,8 +5,11 @@
 To write a C++ program to convert an infix expression into a postfix expression using the Stack STL.
 
 ## Algorithm:
+
 1.Start the program.
+
 2.Define a function precedence(op) to return precedence of operators (+,- = 1, *,/ = 2, ^ = 3).
+
 3.Traverse the infix expression character by character:
 4.If the character is an operand → append to postfix string.
 5.If the character is ( → push onto stack.
@@ -14,7 +17,7 @@ To write a C++ program to convert an infix expression into a postfix expression 
 7.If the character is an operator → pop from stack while top of stack has greater or equal precedence, then push current operator.
 8.After traversing, pop all remaining operators from stack and append to postfix expression.
 9.Print the final postfix expression.
-1o0.Stop the program.
+10.Stop the program.
 ## Program:
 ```
 #include <iostream>
