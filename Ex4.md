@@ -6,10 +6,15 @@ To write a C++ program to insert five character elements into Stack ADT using ST
 
 ## Algorithm:
 Start the program.
+
 Declare a stack of type char.
-Read five character elements from the user.
+
+Read five character elements from the user
+
 Insert each element into the stack using push().
+
 Display the elements of the stack by popping them one by one until the stack becomes empty.
+
 Stop the program.
 ## Program:
 ```
