@@ -1,8 +1,8 @@
 ## Ex.No:1
 ## Ex.Name: write a C++ program to implement FCFS algorithm(to read no of.process p1,p2 ,p3 and p4 and its burst time from the user) find out waiting time & Turn Around time of the the process?
 ## Date: 04/09/2025
-# Name : Ramya S
-# Register Number : 212222040130
+## Name : Ramya S
+## Register Number : 212222040130
 ## Aim:
 To write a C++ program that implements the FCFS algorithm by reading the number of processes and their burst times, then calculating Waiting Time and Turnaround Time for each process.
 
